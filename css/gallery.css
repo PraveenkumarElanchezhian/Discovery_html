@@ -1,0 +1,49 @@
+.bodyColor{
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+.Gallery-bottom-content{
+    background-color: #000;
+    width: 100%;
+    display: flex;
+    flex-wrap:wrap;
+  
+}
+
+.display-Style{
+    height: 250px;
+    width: 33.33%;
+    display: inline-table;
+    flex-wrap:wrap;
+}
+
+.imageStyle{
+    height: 250px;
+    width: 100%;
+   
+} 
+
+.world-title{
+    width: 100%;
+    color: #fff;
+    text-align: center;
+    font-family: gt-sectra;
+    font-size: larger;
+    font-weight: 10;
+    padding: 10px; 
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.gallery-style{
+    color: #fff;
+    font-size: calc(20.66667px + 3.06667vw);
+    font-family: gt-sectra;
+    font-weight: 200;
+    position: absolute;
+    padding: 170px 0px 0px 110px;
+}

@@ -1,0 +1,66 @@
+.bodyColor {
+    background-color: #000;
+    vertical-align: middle;
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+}
+
+.displayStyle{
+    display: inline-table;
+    padding-top:50px;
+    width: 320px;
+    padding-left: 5px;
+}
+
+.imageStyle{
+    height: 200px;
+    width: 325px;   
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.world-title {
+    margin-left: 10px;
+    font-size: .85rem;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 1rem; 
+    line-height: 1.1;
+    
+}
+
+.world-loc{
+    margin-left: 10px;
+    line-height: 1.3; 
+    margin-top: -5px;
+}
+
+.world p {
+    line-height: 1.3; 
+    margin-top: 0.25rem;
+}
+
+p {
+    color: #777;
+}
+
+
+@font-face {
+    font-family: 'Messina Sans';
+    src: url('../assets/font/MessinaSans-Book.eot');
+    src: local('Messina Sans Book'), local('MessinaSans-Book'),
+        url('../assets/font/MessinaSans-Book.eot?#iefix') format('embedded-opentype'),
+        url('../assets/font/MessinaSans-Book.woff2') format('woff2'),
+        url('../assets/font/MessinaSans-Book.woff') format('woff'),
+        url('../assets/font/MessinaSans-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div{
+    font-family: 'Messina Sans'; 
+}
