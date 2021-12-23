@@ -1,24 +1,21 @@
-document.getElementById("header").innerHTML ='<table><tr>'+
-    '<td><img style="height: 45px; width: 45px; padding-left: 100px;" src="../assets/Images/Capture.JPG" alt="icon"></td>'
-    +'<td>'
-        +'<div class="headerdivStyle">'
-           +'<label style="color: #fff; width :100%; font-size: 1.8em; " >Discovery</label><br/>'
-           + '<label style="color: #fff; font-size: .8em;">LAND COMPANY</label>'
-         +'</div>'
-    +'</td>'
-    +'<td style="width: 370px;"></td>'
-    +'<td style="color: whitesmoke; font-size: 1.2em;">About DLC</td>'
-    +'<td style="width: 40px;"></td>'
-    +'<td style="color: whitesmoke; font-size: 1.2em;">Our Worlds</td>'
-    +'<td style="width: 40px;"></td>'
-    +'<td style="color: whitesmoke; font-size: 1.2em;">Experiences</td>'
-    +'<td style="width: 40px;"></td>'
-    +'<td style="color: whitesmoke; font-size: 1.2em;">Gallery</td>'
-    +'<td style="width: 40px;"></td>'
-    +'<td style="color: whitesmoke; font-size: 1.2em;">Press</td>'
-    +'<td style="width: 100px;"></td>'
-    +'<td><img src="../assets/Images/Capture1.JPG" alt="icon"></img></td>'
-+'</tr>'
-+'</table>';
+document.getElementById("header").innerHTML =`<div class="header-content">
 
+<div class="header-left">
+    <div class="image-style"><img src="../assets/Images/Capture.JPG" alt="icon"></div>
+</div>
+<div class="header-centre">
+    <div class="title-1">Discovery<br /></div>
+    <div class="title-2">LAND COMPANY</div>
+</div>
+
+<div class="header-right">
+    <div class="header-inner-content">About DLC</div>
+    <div class="header-inner-content">Our Worlds</div>
+    <div class="header-inner-content">Experiences</div>
+    <div class="header-inner-content">Gallery</div>
+    <div class="header-inner-content">Press</div>
+    <div><img src="../assets/Images/Capture1.JPG" alt="icon"></div>
+</div>
+
+</div>`
 
