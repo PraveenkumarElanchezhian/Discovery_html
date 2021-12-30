@@ -1,0 +1,64 @@
+.header-content{
+    display: flex; 
+    background-color: #000;
+    height: 600px;
+    width: 100%;
+    background-size: 100% 100%;
+    background-image: url(../assets/Images/YC-DSC_0007-2.jpg);
+}
+
+.header-left{
+    width: 10%;
+}
+
+.image-style{
+    padding-left: 75px;
+    padding-top: 50px; 
+}
+
+.header-centre{
+    width: 30%;
+}
+
+.title-1{
+    padding-left: -35px;
+    padding-top: 50px;
+    color: #fff;  
+    font-size: 1.8em; 
+}
+
+.title-2{
+    margin-left: 5px;
+    line-height: .08;
+    padding-top: 5px;
+    color: #fff; 
+    font-size: 12px;
+}
+
+.header-right{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly; 
+    padding-top: 70px;
+    color: #fff;
+}
+
+.header-inner-content{
+    color: #fff;
+}
+
+@font-face {
+    font-family: 'Messina Sans';
+    src: url('../assets/font/MessinaSans-Book.eot');
+    src: local('Messina Sans Book'), local('MessinaSans-Book'),
+        url('../assets/font/MessinaSans-Book.eot?#iefix') format('embedded-opentype'),
+        url('../assets/font/MessinaSans-Book.woff2') format('woff2'),
+        url('../assets/font/MessinaSans-Book.woff') format('woff'),
+        url('../assets/font/MessinaSans-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+div{
+    font-family: 'Messina Sans'; 
+}
