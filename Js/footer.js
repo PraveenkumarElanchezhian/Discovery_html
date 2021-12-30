@@ -1,6 +1,6 @@
 document.getElementById("footer").innerHTML =`<div class="footer-content">
 <div class="left">
-    <div class="image_Style"><img src="../assets/Images/footerlogo.JPG" alt="icon">
+    <div class="image_Style"><img style="height:60px;width:60px" src="../assets/Images/logo-transparent-1.png" alt="icon">
     </div>
     <div class="text_style">© Discovery Land Company. All rights reserved.</div>
 </div>
