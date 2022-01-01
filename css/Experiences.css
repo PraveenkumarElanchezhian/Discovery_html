@@ -1,0 +1,216 @@
+.bodystyle {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px; 
+}
+
+.Experiences-section-1{
+    width: 100%;
+    font-family: gt-sectra;
+    color: #111;
+    line-height: 1.4;
+    font-size: 27px;
+    text-align: center;
+    margin-top: 100px;
+
+}
+
+.Experiences-section-2{
+    margin-top: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.section2-left{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.left-title1{
+    margin-bottom: 1rem;
+   
+}
+
+.left-heading{
+    font-family: gt-sectra;
+    font-weight: 200;
+}
+
+.left-title2{
+    font-family: 'Messina Sans';
+    line-height: 2;
+}
+
+.Experiences-section-2-right{
+    width: 40%;
+    padding: auto;
+}
+
+.right-imagestyle{
+    width: 100%;
+    height: 600px;
+    padding-top:0px;
+}
+
+.Experiences-section-3{
+    margin-top: 100px;
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 1000px;
+}
+
+.backgroundcolor{
+    background-color: silver;
+    /* background-image: url(https://dxaurk9yhilm4.cloudfront.net/images/533/Golf3_a6d5da2….jpg); */
+    margin-top: 300px;
+    margin-bottom: 80px;
+    margin-left: 90px;
+    height: 600px;
+    width: 72.5% ;
+    z-index: 1;
+    position: absolute;
+}
+
+.section-left{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    height: 750px;
+    width: 75%;
+    z-index: 2;
+    position: absolute;
+}
+
+.section-right{
+    background-color: #fff;
+    margin-top: 200px;
+    margin-left: 700px;
+    height: 500px;
+    width: 40%;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    flex-direction: column; 
+}
+
+.heading{
+    font-family: gt-sectra; 
+    font-weight: 100;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.paragraph{
+    font-family: 'Messina Sans';
+    margin-left: 60px;
+    margin-top: 10px;
+    line-height: 2;
+}
+
+.button{
+    font-family: gt-sectra;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.Experiences-section-4{
+    margin-top: 0px;
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 1000px;
+}
+
+.section4-backgroundcolor{
+    background-color: silver;
+    /* background-image: url(https://dxaurk9yhilm4.cloudfront.net/images/533/Golf3_a6d5da2….jpg); */
+    margin-top: 300px;
+    margin-bottom: 80px;
+    margin-left: 285px;
+    height: 600px;
+    width: 72.5% ;
+    z-index: 1;
+    position: absolute;
+}
+
+.section4-left{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 337px;
+    height: 750px;
+    width: 75%;
+    z-index: 2;
+    position: absolute;
+    
+}
+
+.section4-right{
+    background-color: #fff;
+    margin-top: 200px;
+    margin-left: 100px;
+    height: 500px;
+    width: 40%;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    flex-direction: column; 
+}
+.Experiences-section-5{
+    margin-top: 0px;
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 1000px;
+}
+
+.Experiences-section-6{
+    width: 100%;
+}
+
+.section6-Imagestyle{
+    height: 500px;
+    width: 100%;
+}
+
+.section-6-content{
+    margin-top: -350px;
+    color: #fff;
+    margin-bottom: 209px;
+}
+
+.content-title1{
+    justify-content: center;
+    margin-left: 550px;
+    font-family: gt-sectra;
+    font-weight: 100; 
+    font-size: calc(30.66667px + 1.06667vw);
+}
+
+.content-title2{
+    justify-content: center;
+    margin-left: 620px;
+    font-size: 20px;
+}
+
+@font-face {
+    font-family: 'Messina Sans';
+    src: url('../assets/font/MessinaSans-Book.eot');
+    src: local('Messina Sans Book'), local('MessinaSans-Book'),
+        url('../assets/font/MessinaSans-Book.eot?#iefix') format('embedded-opentype'),
+        url('../assets/font/MessinaSans-Book.woff2') format('woff2'),
+        url('../assets/font/MessinaSans-Book.woff') format('woff'),
+        url('../assets/font/MessinaSans-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.vedio{
+    display: flex;
+    height: 800px;
+    width: 100%;
+    margin-top: -20px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+}

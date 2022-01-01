@@ -36,6 +36,7 @@
 }
 
 .header-right{
+    color: #fff;
     width: 60%;
     display: flex;
     justify-content: space-evenly; 
